@@ -1,0 +1,18 @@
+{
+// "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 27, // Waybar height (to be removed for auto height)
+    "spacing": 0, // Gaps between modules (4px)
+    "margin-left":400,
+    "margin-right":500,
+    "margin-top": 10,
+    // Choose the order of the modules
+    "modules-center": [
+        "custom/1",
+	],
+
+       "custom/1": {
+      "format": " I'd like to think I was one of them. Not anymore, I am myself now. {}",
+      "tooltip": false,
+    },
+}
